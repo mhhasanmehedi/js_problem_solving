@@ -8,7 +8,7 @@ function kilometerToMeter(Kilometer){
 }
 
 
-// Budge Calculator
+// Budget Calculator
 function budgetCalculator(watch,phone,laptop){
     var watchPrice = watch * 50;
     var phonePrice = phone * 100;
