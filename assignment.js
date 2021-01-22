@@ -8,7 +8,7 @@ function kilometerToMeter(Kilometer){
     if(Kilometer < 1){
         return "Distance cannot be negative";
     }else if(typeof Kilometer != "number"){
-        return "You value is not a number";
+        return "Your value is not a number";
     }else{
         return meter;
     }
@@ -58,7 +58,3 @@ function megaFriend(friends){
     }
     return longest;
 }
-
-
-
-
