@@ -1,0 +1,8 @@
+		Assingment: Javascript Problem solving
+
+
+Function: 
+	1:kilometerToMeter
+	2.budgetCalculator(three parameter)
+	3.hotelCost
+	4.megaFriend
