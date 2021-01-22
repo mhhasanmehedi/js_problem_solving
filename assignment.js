@@ -1,10 +1,17 @@
 
 // https://github.com/mhhasanmehedi/js_problem_solving
 
+
 // Kilometer To Meter converter
 function kilometerToMeter(Kilometer){
     var meter = Kilometer * 1000;
-    return meter;
+    if(Kilometer < 1){
+        return "Distance cannot be negative";
+    }else if(typeof Kilometer != "number"){
+        return "You value is not a number";
+    }else{
+        return meter;
+    }
 }
 
 
